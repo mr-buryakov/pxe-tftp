@@ -29,7 +29,6 @@ LABEL bootlocal
    kernel chain.c32
    append hd0 0
    timeout 120
-   menu passwd deploy
  TEXT HELP
 The system will boot after the time is up
  ENDTEXT
